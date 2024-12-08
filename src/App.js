@@ -1,14 +1,16 @@
-import { Card, Col, Container, Row } from 'reactstrap';
+import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from 'reactstrap';
 import './App.css';
-import { LINKS } from './videoLinks';
+import { VIDEOS } from './videos';
 
-function videoFrame(link){
+function videoCard(video){
   return(
-    <Col>
-      <Card style={{width: "5rem;"}}>
-          {/* <div className='embed-responsive'> */}
-            <iframe className='embed-responsive-item card-img-top' src={link} allowFullScreen></iframe>
-          {/* </div> */}
+    <Col xs="12" sm="6" lg="4" className='mb-5'>
+      <Card className='h-100'>
+        <iframe className='card-img-top' src={video.href} title={video.title} allowFullScreen></iframe>
+        <CardBody>
+          <CardTitle>S{video.season}E{video.episode} - {video.title}</CardTitle>
+          <CardText>{video.description}</CardText>
+        </CardBody>
       </Card>
     </Col>
   )
@@ -17,8 +19,13 @@ function videoFrame(link){
 function App() {
   return (
     <Container>
+      <Row className='my-5'>
+        <Col xs="4" className='mx-auto text-center'>
+          <h1>Kid Nation Archive</h1>
+        </Col>
+      </Row>
       <Row>
-        {LINKS.map(link => videoFrame(link))}
+        {VIDEOS.map(video => videoCard(video))}
       </Row>
     </Container>
   );
