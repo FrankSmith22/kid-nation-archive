@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kid-nation-viewer/static/css/main.d221dc40.css",
+    "main.js": "/kid-nation-viewer/static/js/main.00c6bc91.js",
+    "index.html": "/kid-nation-viewer/index.html",
+    "main.d221dc40.css.map": "/kid-nation-viewer/static/css/main.d221dc40.css.map",
+    "main.00c6bc91.js.map": "/kid-nation-viewer/static/js/main.00c6bc91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d221dc40.css",
+    "static/js/main.00c6bc91.js"
+  ]
+}
