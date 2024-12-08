@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/kid-nation-viewer/static/css/main.d221dc40.css",
-    "main.js": "/kid-nation-viewer/static/js/main.8908d2b5.js",
+    "main.css": "/kid-nation-viewer/static/css/main.c4e3a889.css",
+    "main.js": "/kid-nation-viewer/static/js/main.cf1768e6.js",
+    "static/media/kid-nation-kid.webp": "/kid-nation-viewer/static/media/kid-nation-kid.6ec3eb396daacb38c3f1.webp",
     "index.html": "/kid-nation-viewer/index.html",
-    "main.d221dc40.css.map": "/kid-nation-viewer/static/css/main.d221dc40.css.map",
-    "main.8908d2b5.js.map": "/kid-nation-viewer/static/js/main.8908d2b5.js.map"
+    "main.c4e3a889.css.map": "/kid-nation-viewer/static/css/main.c4e3a889.css.map",
+    "main.cf1768e6.js.map": "/kid-nation-viewer/static/js/main.cf1768e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d221dc40.css",
-    "static/js/main.8908d2b5.js"
+    "static/css/main.c4e3a889.css",
+    "static/js/main.cf1768e6.js"
   ]
 }
