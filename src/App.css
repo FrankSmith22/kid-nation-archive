@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rye&display=swap');
+
+.rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #b9aba0;
+}
+
+.site-title{
+    color: rgb(104, 75, 56);
+}
+
+.card{
+    box-shadow: 0px 0px 5px 1px grey;
+    transition: box-shadow 0.25s;
+    background-color: #fff7f0;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px 4px grey;
+}
+
+.card-img-top{
+    height: 20rem;
+}
+
+.footer{
+    background-color: rgb(61, 33, 0);
+    color: gray;
+}
+
+.kid-nation-kid{
+    height: auto;
+    width: 60%;
+}
