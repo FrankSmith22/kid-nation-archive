@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kid-nation-viewer/static/css/main.c4e3a889.css",
+    "main.css": "/kid-nation-viewer/static/css/main.17a5e434.css",
     "main.js": "/kid-nation-viewer/static/js/main.cf1768e6.js",
     "static/media/kid-nation-kid.webp": "/kid-nation-viewer/static/media/kid-nation-kid.6ec3eb396daacb38c3f1.webp",
     "index.html": "/kid-nation-viewer/index.html",
-    "main.c4e3a889.css.map": "/kid-nation-viewer/static/css/main.c4e3a889.css.map",
+    "main.17a5e434.css.map": "/kid-nation-viewer/static/css/main.17a5e434.css.map",
     "main.cf1768e6.js.map": "/kid-nation-viewer/static/js/main.cf1768e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4e3a889.css",
+    "static/css/main.17a5e434.css",
     "static/js/main.cf1768e6.js"
   ]
 }
