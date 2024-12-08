@@ -1,17 +1,26 @@
+import { Card, Col, Container, Row } from 'reactstrap';
 import './App.css';
 import { LINKS } from './videoLinks';
 
 function videoFrame(link){
   return(
-    <iframe src={link} width="640" height="480" allow="autoplay"></iframe>
+    <Col>
+      <Card style={{width: "5rem;"}}>
+          {/* <div className='embed-responsive'> */}
+            <iframe className='embed-responsive-item card-img-top' src={link} allowFullScreen></iframe>
+          {/* </div> */}
+      </Card>
+    </Col>
   )
 }
 
 function App() {
   return (
-    <div>
-      {LINKS.map(link => videoFrame(link))}
-    </div>
+    <Container>
+      <Row>
+        {LINKS.map(link => videoFrame(link))}
+      </Row>
+    </Container>
   );
 }
 
