@@ -42,7 +42,7 @@ function App() {
     </Container>
     <div className='container-fluid'>
       <Row className='footer py-5'>
-        <Col xs="4" className='mx-auto text-center'>
+        <Col xs="12" md="4" className='mx-auto text-center'>
           <p>Website developed by Frank Smith with no affiliation to CBS, all credit goes to them for the content shown here.</p>
           <p><a href="https://www.youtube.com/watch?v=YuRYaTVSuhs&pp=ygUSam9udHJvbiBraWQgbmF0aW9u">Jontron Lolz</a></p>
         </Col>
