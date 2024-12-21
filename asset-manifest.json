@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kid-nation-viewer/static/css/main.17a5e434.css",
-    "main.js": "/kid-nation-viewer/static/js/main.60f29c39.js",
-    "static/media/kid-nation-kid.webp": "/kid-nation-viewer/static/media/kid-nation-kid.6ec3eb396daacb38c3f1.webp",
-    "index.html": "/kid-nation-viewer/index.html",
-    "main.17a5e434.css.map": "/kid-nation-viewer/static/css/main.17a5e434.css.map",
-    "main.60f29c39.js.map": "/kid-nation-viewer/static/js/main.60f29c39.js.map"
+    "main.css": "/kid-nation-archive/static/css/main.17a5e434.css",
+    "main.js": "/kid-nation-archive/static/js/main.3a1564e7.js",
+    "static/media/kid-nation-kid.webp": "/kid-nation-archive/static/media/kid-nation-kid.6ec3eb396daacb38c3f1.webp",
+    "index.html": "/kid-nation-archive/index.html",
+    "main.17a5e434.css.map": "/kid-nation-archive/static/css/main.17a5e434.css.map",
+    "main.3a1564e7.js.map": "/kid-nation-archive/static/js/main.3a1564e7.js.map"
   },
   "entrypoints": [
     "static/css/main.17a5e434.css",
-    "static/js/main.60f29c39.js"
+    "static/js/main.3a1564e7.js"
   ]
 }
