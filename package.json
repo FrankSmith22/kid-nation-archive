@@ -1,7 +1,7 @@
 {
-  "name": "kid-nation-viewer",
+  "name": "kid-nation-archive",
   "version": "0.1.0",
-  "homepage": "https://franksmith22.github.io/kid-nation-viewer",
+  "homepage": "https://franksmith22.github.io/kid-nation-archive",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
